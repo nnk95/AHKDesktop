@@ -68,7 +68,10 @@ send !{F4}
 sleep 750
 send n
 ; closed without saving
-sleep 500
+sleep 1000
+; move pointer to next ready location
+send {RIGHT 3}
+sleep 10
 ; save main data file
 send ^s
 sleep 1000
