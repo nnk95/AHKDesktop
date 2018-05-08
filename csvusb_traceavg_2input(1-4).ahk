@@ -70,7 +70,7 @@ send n
 ; closed without saving
 sleep 1000
 ; move pointer to next ready location (2nd set)
-send {RIGHT 3}
+send {LEFT 3}
 sleep 10
 ; save main data file
 send ^s
@@ -147,7 +147,7 @@ send n
 ; closed without saving
 sleep 500
 ; move pointer to next ready location (3rd set)
-send {RIGHT 8}
+send {LEFT 8}
 sleep 10
 ; save main data file
 send ^s
@@ -224,7 +224,7 @@ send n
 ; closed without saving
 sleep 500
 ; move pointer to next ready location (4th set)
-send {RIGHT 2}
+send {LEFT 2}
 sleep 10
 ; save main data file
 send ^s
