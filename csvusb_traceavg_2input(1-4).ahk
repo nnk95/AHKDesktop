@@ -224,7 +224,7 @@ send n
 ; closed without saving
 sleep 500
 ; move pointer to next ready location (4th set)
-send {LEFT 2}
+send {LEFT 3}
 sleep 10
 ; save main data file
 send ^s
