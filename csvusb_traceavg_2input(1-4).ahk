@@ -69,8 +69,162 @@ sleep 750
 send n
 ; closed without saving
 sleep 1000
-; move pointer to next ready location
+; move pointer to next ready location (2nd set)
 send {RIGHT 3}
+sleep 10
+; save main data file
+send ^s
+sleep 1000
+; restart program start
+send !{TAB}
+sleep 750
+send {DOWN}
+sleep 10
+send {ENTER}
+; opening second trace file
+sleep 2000
+; restart program begin
+send {RIGHT 4}
+send {DOWN 2}
+; enter 4
+send 4
+send {ENTER}
+sleep 10
+; enter 1
+send 1
+send {ENTER}
+send {RIGHT}
+send {UP}
+send {up}
+; make average function of CH 4
+send {=}AVERAGE(C3:C1002)
+sleep 10
+send {ENTER}
+sleep 400
+; make average function of CH 1
+send {=}AVERAGE(B3:B1002)
+sleep 10
+send {ENTER}
+sleep 400
+send {UP}
+send {up}
+sleep 10
+; done making average in initial CSV file
+send ^c
+sleep 750
+send !{TAB}
+sleep 750
+send ^!v
+sleep 400
+send v
+sleep 10
+send {ENTER}
+sleep 750
+; done pasting into CH 4 (LEFT)
+send {RIGHT 6}
+sleep 100
+send !{TAB}
+sleep 750
+send {DOWN}
+sleep 10
+send ^c
+sleep 750
+send !{TAB}
+sleep 750
+send ^!v
+sleep 400
+send v
+sleep 10
+send {ENTER}
+sleep 750
+; done pasting into CH 1 (RIGHT)
+; moving back to initial CSV to close file
+send !{TAB}
+sleep 750
+send !{F4}
+sleep 750
+send n
+; closed without saving
+sleep 500
+; move pointer to next ready location (3rd set)
+send {RIGHT 8}
+sleep 10
+; save main data file
+send ^s
+sleep 1000
+; restart program start
+send !{TAB}
+sleep 750
+send {DOWN}
+sleep 10
+send {ENTER}
+; opening second trace file
+sleep 2000
+; restart program begin
+send {RIGHT 4}
+send {DOWN 2}
+; enter 4
+send 4
+send {ENTER}
+sleep 10
+; enter 1
+send 1
+send {ENTER}
+send {RIGHT}
+send {UP}
+send {up}
+; make average function of CH 4
+send {=}AVERAGE(C3:C1002)
+sleep 10
+send {ENTER}
+sleep 400
+; make average function of CH 1
+send {=}AVERAGE(B3:B1002)
+sleep 10
+send {ENTER}
+sleep 400
+send {UP}
+send {up}
+sleep 10
+; done making average in initial CSV file
+send ^c
+sleep 750
+send !{TAB}
+sleep 750
+send ^!v
+sleep 400
+send v
+sleep 10
+send {ENTER}
+sleep 750
+; done pasting into CH 4 (LEFT)
+send {RIGHT 6}
+sleep 100
+send !{TAB}
+sleep 750
+send {DOWN}
+sleep 10
+send ^c
+sleep 750
+send !{TAB}
+sleep 750
+send ^!v
+sleep 400
+send v
+sleep 10
+send {ENTER}
+sleep 750
+; done pasting into CH 1 (RIGHT)
+; moving back to initial CSV to close file
+send !{TAB}
+sleep 750
+send !{F4}
+sleep 750
+send n
+; closed without saving
+sleep 500
+; move pointer to next ready location (4th set)
+send {RIGHT 2}
 sleep 10
 ; save main data file
 send ^s
