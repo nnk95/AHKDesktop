@@ -9,23 +9,23 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; control shft F1
 send {RIGHT 4}
 send {DOWN 2}
-; enter 1
-send 1
-send {ENTER}
-sleep 10
 ; enter 4
 send 4
+send {ENTER}
+sleep 10
+; enter 1
+send 1
 send {ENTER}
 send {RIGHT}
 send {UP}
 send {up}
-; make average function of CH 1
-send {=}AVERAGE(B3:B1002)
+; make average function of CH 4
+send {=}AVERAGE(C3:C1002)
 sleep 10
 send {ENTER}
 sleep 400
-; make average function of CH 4
-send {=}AVERAGE(C3:C1002)
+; make average function of CH 1
+send {=}AVERAGE(B3:B1002)
 sleep 10
 send {ENTER}
 sleep 400
@@ -43,8 +43,8 @@ send v
 sleep 10
 send {ENTER}
 sleep 750
-; done pasting into CH 1 (RIGHT)
-send {LEFT 6}
+; done pasting into CH 4 (LEFT)
+send {RIGHT 6}
 sleep 100
 send !{TAB}
 sleep 750
@@ -60,7 +60,7 @@ send v
 sleep 10
 send {ENTER}
 sleep 750
-; done pasting into CH4 (LEFT)
+; done pasting into CH 1 (RIGHT)
 ; moving back to initial CSV to close file
 send !{TAB}
 sleep 750
