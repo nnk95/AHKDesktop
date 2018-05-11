@@ -82,7 +82,7 @@ send {DOWN}
 sleep 10
 send {ENTER}
 ; opening second trace file
-sleep 2000
+sleep 5000
 ; restart program begin
 send {RIGHT 4}
 send {DOWN 2}
@@ -159,7 +159,7 @@ send {DOWN}
 sleep 10
 send {ENTER}
 ; opening second trace file
-sleep 2000
+sleep 5000
 ; restart program begin
 send {RIGHT 4}
 send {DOWN 2}
@@ -236,7 +236,7 @@ send {DOWN}
 sleep 10
 send {ENTER}
 ; opening second trace file
-sleep 2000
+sleep 5000
 ; restart program begin
 send {RIGHT 4}
 send {DOWN 2}
