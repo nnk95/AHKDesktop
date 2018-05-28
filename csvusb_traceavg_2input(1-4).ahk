@@ -606,7 +606,7 @@ send ^s
 send {UP}
 send {LEFT 10}
 ; reached line 2 start line restarting program
-sleep 500
+sleep 750
 send !{TAB}
 sleep 750
 send {DOWN}
@@ -913,7 +913,7 @@ send ^s
 send {UP}
 send {LEFT 10}
 ; reached line 2 start line restarting program
-sleep 500
+sleep 750
 send !{TAB}
 sleep 750
 send {DOWN}
