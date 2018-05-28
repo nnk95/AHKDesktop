@@ -302,7 +302,7 @@ send n
 sleep 500
 ; save main data file
 send ^s
-
+return
 
 ; 3 LINER Program
 ^+F2::
@@ -1216,3 +1216,4 @@ send n
 sleep 500
 ; save main data file
 send ^s
+return
